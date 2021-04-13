@@ -2,7 +2,7 @@
 using namespace std;
 
 int N, M;
-int arr[1][2];//번째카드 ,0=앞A 1=뒤B 
+int arr[1][2]; //번째카드 ,0=앞A 1=뒤B 
 
 int main() {
 	cin >> N >> M;
