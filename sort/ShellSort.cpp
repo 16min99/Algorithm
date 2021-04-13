@@ -48,9 +48,10 @@ void ShellSort2(int a[], int n)
 
 	gap[0] = 1;
 	k = 0;
+	
 	while (gap[k] < n) {
 		k++;
-		gap[k] = pow(4, k) + 3 * pow(2, k - 1) + 1;
+		gap[k] = pow(4, k) + 3 * pow(2, k - 1) + 1;//식을 직접 작성할 수 있음
 	}
 
 	for (; k >= 0; k--) {
