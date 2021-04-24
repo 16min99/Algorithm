@@ -1,4 +1,4 @@
-//DBB3-2ū���ǹ�Ģ
+//DBB3-2큰수의법칙
 #include <iostream>
 using namespace std;
 #include <algorithm>
