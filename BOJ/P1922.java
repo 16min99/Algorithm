@@ -2,7 +2,7 @@ package BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class P1922 {
 
     static PriorityQueue<edge> pq ;
     static int N;
